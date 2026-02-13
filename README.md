@@ -1,13 +1,21 @@
 # Dr. Sarah O'Connor — Medicinal Chemistry PI
 
-Character for [Autonomous Lab](https://autolab.kejunying.com). A medicinal chemistry PI focused on computational drug discovery and lead optimization.
+Character for [Autonomous Lab](https://autolab.kejunying.com). A medicinal chemistry PI focused on computational drug discovery.
 
-## Install
+## Structure
 
-```bash
-curl -O https://raw.githubusercontent.com/albert-ying/autolab-char-medchem-pi/master/character.yaml
+```
+autolab-char-medchem-pi/
+├── character.yaml
+└── skills/
+    ├── virtual-screening/
+    │   └── SKILL.md          # library filtering, similarity search
+    ├── lead-optimization/
+    │   └── SKILL.md          # SAR analysis, activity cliffs
+    └── compound-profiling/
+        └── SKILL.md          # descriptors, ADMET, drug-likeness
 ```
 
-## Skills
+## License
 
-rdkit, datamol, deepchem, pytdc, medchem, pubchem-database
+Apache 2.0
